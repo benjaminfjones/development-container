@@ -1,1 +1,7 @@
-export PATH="$HOME/.cargo/bin:$PATH"
+# rust cargo
+[ -f ~/.cargo/env ] && source ~/.cargo/env
+fpath+=~/.zfunc
+compinit
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

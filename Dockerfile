@@ -23,7 +23,7 @@ WORKDIR "/home/$DOCKER_USER"
 
 # Basic tools
 RUN yes | sudo unminimize && \
-    sudo apt-get install -y zsh man-db build-essential curl openssh-client git && \
+    sudo apt-get install -y man-db build-essential curl openssh-client git && \
     sudo rm -rf /var/lib/apt/lists/*
 
 # Shell / terminal tools
